@@ -1,12 +1,21 @@
-public class JAWABANO3{
+import java.util.Arrays;
+import java.util.Scanner;
+public class JAWABANO3 {
+    public static String[] InfoPlat = new String[]{
+            "K-Kudus ", "B-Jakarta ", "AB-Jogja ","T-Karawang ", "AD-Solo"
+    };
 
-    public static void ubahHurufETostar(String[] huruf){
-        for (int i=0; i<huruf.length;i++){
-            System.out.println(huruf[i].replace("e", "*"));
-        }
-    }
     public static void main(String[] args) {
-        String[] Block = new String[]{"triangle", "cubes", "circle"};
-        ubahHurufETostar(Block);
+        Scanner inputPlat = new Scanner(System.in);
+        while (true){
+            System.out.println("Plat Nomor ");
+            String platNomor = inputPlat.nextLine();
+            switch (platNomor){
+                case "K":{
+
+                }
+            }
     }
+
+
 }
