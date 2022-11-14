@@ -15,7 +15,30 @@ public class JAWABANO3 {
         public static void main(String[] args) {
 //           String[] InfoPlat = new String[]{"K-Kudus","B-Jakarta","AB-jogja","T-Karawang","AD-Solo"};
             for (int i = 0; 1 < 8; i++) {
-                platnomor();
+                plat();
+            }
+
+        }
+
+        public static void cekPlatNomor(String kodePlat) {
+            if (kodePlat.contains("K")) {
+                success = true;
+                kudus++;
+            } else if (kodePlat.contains("B")) {
+                success = true;
+                jogja++;
+            } else if (kodePlat.contains("AB")) {
+                success = true;
+                karawang++;
+            } else if (kodePlat.contains("T")) {
+                success = true;
+                karawang++;
+            } else if (kodePlat.contains("AD")) {
+                success = true;
+                solo++;
+            } else {
+                success = false;
+                System.out.println("kode tidak valid");
             }
         }
     }
