@@ -1,21 +1,20 @@
-import java.util.Arrays;
 import java.util.Scanner;
-public class JAWABANO3 {
-    public static String[] InfoPlat = new String[]{
-            "K-Kudus ", "B-Jakarta ", "AB-Jogja ","T-Karawang ", "AD-Solo"
-    };
+public class tes {
+    public class tess{
+        static int jumlahPlat = 10;
+        static  int kudus = 0;
+        static int jakarta = 0;
+        static int jogja = 0;
+        static int karawang = 0;
+        static int solo = 0;
+        static int sisaKuota = 0;
 
-    public static void main(String[] args) {
-        Scanner inputPlat = new Scanner(System.in);
-        while (true){
-            System.out.println("Plat Nomor ");
-            String platNomor = inputPlat.nextLine();
-            switch (platNomor){
-                case "K":{
+        static  boolean success = false;
+//       String[] InfoPlat = new String[]{"K-Kudus","B-Jakarta","AB-jogja","T-Karawang","AD-Solo"};
 
-                }
+        public static void main(String[] args) {
+//           String[] InfoPlat = new String[]{"K-Kudus","B-Jakarta","AB-jogja","T-Karawang","AD-Solo"};
+            for (int i = 0; 1 < 8; i++) {
+                infoplat();
             }
-    }
-
-
-}
+        }
